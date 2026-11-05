@@ -1,0 +1,54 @@
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build output
+/bin/
+/dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency vendor directory (optional)
+# /vendor/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE - VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+
+# IntelliJ IDEA
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test coverage
+coverage.out
+coverage.html
+
+# Local configuration
+config.local.yaml
+config.local.json
