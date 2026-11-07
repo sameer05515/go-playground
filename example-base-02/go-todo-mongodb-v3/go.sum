@@ -1,0 +1,2 @@
+go.mongodb.org/mongo-driver/v2 v2.10.0 h1:BYJLuVSu3/xDvToG+VQyoTPS+jxq9tuQDf+1nAlFKSE=
+go.mongodb.org/mongo-driver/v2 v2.10.0/go.mod h1:PxPyIAlsI1jkYZvUNfTr++ggyBP+RSaxHYctt6TcZc4=
