@@ -1,0 +1,16 @@
+# Go binaries
+*.exe
+*.test
+*.out
+/bin/
+/dist/
+
+# Local secrets and logs
+.env
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
