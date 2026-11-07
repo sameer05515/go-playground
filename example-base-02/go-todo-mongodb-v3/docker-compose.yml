@@ -1,0 +1,10 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: go-todo-mongodb
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+volumes:
+  mongodb_data:
